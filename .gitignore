@@ -1,0 +1,25 @@
+# Dependências
+node_modules/
+
+# Variáveis de ambiente (segredos) — nunca commitar
+.env
+*.env.local
+
+# Build / saída
+dist/
+build/
+.next/
+
+# Testes / cobertura
+coverage/
+cypress/videos/
+cypress/screenshots/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional / editor
+.DS_Store
+.idea/
+.vscode/
