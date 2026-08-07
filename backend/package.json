@@ -9,15 +9,20 @@
     "migrate:make": "knex migrate:make",
     "seed": "knex seed:run",
     "seed:make": "knex seed:make",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
+    "bcryptjs": "^3.0.3",
     "dotenv": "^17.4.2",
+    "jsonwebtoken": "^9.0.3",
     "knex": "^3.3.0",
     "pg": "^8.22.0"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
   }
 }
